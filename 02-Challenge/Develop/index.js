@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'table of content?',
-        name: 'content'
-    },
-    {
-        type: 'input',
         message: 'installation',
         name: 'installation'
     },
@@ -39,6 +34,16 @@ const questions = [
         type: 'input',
         message: 'who contrubited in this project?',
         name: 'contribution',
+    },
+    {
+        type: 'input',
+        message: 'does your project have features?',
+        name: 'Features',
+    },
+    {
+        type: 'input',
+        message: 'do you want to write a test?',
+        name: 'Test',
     }
 ];
 
@@ -52,14 +57,6 @@ inquirer.prompt(questions).then(responses => {
 })
 
 
-// TODO: Create a function to initialize app
 
-// // generate the readMe file. 
-// function init() {
-// //     //1 get the questions and the use the answer to =>
-// //     //2. wwrite the file.
 
-//  }
 
-// // Function call to initialize app
-// init();
