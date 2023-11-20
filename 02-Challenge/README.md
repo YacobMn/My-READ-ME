@@ -16,7 +16,4 @@ Yacob Menghistu
 github link: https://github.com/YacobMn
 
 # License 
-This project is licensed under the MIT License. Feel free to explore, contribute, and share this platform with other antique enthusiasts!
-
-MIT License Details:
-https://choosealicense.com/licenses/mit/
+This project is licensed under the MIT License. 
